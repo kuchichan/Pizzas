@@ -12,4 +12,4 @@ related to pizz'ish things.
 
 * To vote at particular pizza just patch at, for instance `/api/pizzas/1/vote`
 
-This is all for now :) Additional behaviour added to DRF were tested.
+This is all for now :) Additional behaviour added to DRF was tested.

@@ -11,6 +11,7 @@ class Polling(models.Model):
 class Pizza(models.Model):
     polling = models.ForeignKey(Polling, on_delete=models.CASCADE)
     topping = models.CharField(max_length=200)
+    topping_amount = models.IntegerField(default=10)
     votes = models.IntegerField(default=0)
 
     class Meta:
